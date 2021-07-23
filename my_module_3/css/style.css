@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fc9803;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #0145fe;
+  border-radius: 0;
+  border: 0;
+  height: 100px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #080f04;
+  font-size: 2.0em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+.title h2 {
+  text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px; 
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+  padding: 10px;
+}
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* END HEADER */
+
+
+
+
+/* HOME PAGE */
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 400px;
+  width: 100%;
+  margin-top: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  color: #000; 
+}
+
+#menu-tile p {
+  bottom: 0;
+  right: 0; 
+  width: 100%;
+  text-align: center;
+  font-size: 2.0em;
+  text-transform: uppercase; 
+  color: #fff;
+  
+}
+#specials-tile p {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2.0em;
+  text-transform: uppercase;
+  color: #fff;
+  
+}
+#map-tile p {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2.0em;
+  text-transform: uppercase;
+  color: #fff;
+  
+}
+/* END HOME PAGE */
+
